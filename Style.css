@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0d0d0d;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.hero {
+  margin-bottom: 2rem;
+}
+.album-cover {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  background: #ff0066;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background 0.3s;
+}
+.cta:hover {
+  background: #ff3399;
+}
+.video {
+  margin: 2rem 0;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.socials .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.socials .icons a {
+  padding: 0.5rem 1rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.socials .icons a:hover {
+  background: #292929;
+}
+footer {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #999;
+}style.css
